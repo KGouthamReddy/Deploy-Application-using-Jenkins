@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringBootAwsApplication {
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to AWS First Deployment...     DEPLOY SPRINGBOOT TO AWS";
+		return "Welcome user!!! ***Application Deployed Successfully***";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootAwsApplication.class, args);
